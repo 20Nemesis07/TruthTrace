@@ -1,0 +1,8 @@
+# Verification performed
+- Built frontend with Vite 6.4.6, React, Tailwind and lucide-react. The compiled output is in frontend/dist.
+- Ran the 12 unit and integration checks in tests. The captured unittest output is in evaluation/results/test-run.txt. Tests include citation rejection, stale evidence, insufficient independent sources, conflicting evidence, blocked destinations, provider-free abstention, cache provenance, history and enforcement of the final verdict.
+- Ran the built dashboard against FastAPI in Chromium. Submitted the offline Mars claim, downloaded the report, searched history and reopened the result. The 390 px viewport had a 390 px document width. A separate DOM integration check verified the link target for the NASA source.
+- Executed the two provider-free example reports saved under evaluation/results. These illustrate actual application behavior and are separate from experiment outputs.
+- Live retrieval probes returned passages from Wikipedia, Crossref and Europe PMC. FactCheck.org's robots policy disallowed the tested search route. The PIB RSS request returned an HTTP error in this environment. Failed adapters are surfaced under limitations on verification reports.
+- No personal model credentials were available. The authenticated Gemini, Groq and optional Google Fact Check Tools paths, and empirical V1–V3 comparisons, still need a run under the user's own free-tier accounts. No live model accuracy is claimed.
+- The Windows batch launcher and macOS setup instructions were not executed on native Windows or macOS. Python runtime and compiled browser checks ran on Linux.

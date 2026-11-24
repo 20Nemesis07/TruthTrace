@@ -1,0 +1,76 @@
+{
+  "id": "69a8e9a107ab4295944eee5956992e49",
+  "date": "2026-11-24T13:21:38.577765+00:00",
+  "claim": "The college cafeteria serves lunch at noon.",
+  "timeline": [
+    {
+      "stage": "Analyzing claim",
+      "at": "2026-11-24T13:21:38.574097+00:00"
+    },
+    {
+      "stage": "Retrieving evidence",
+      "at": "2026-11-24T13:21:38.574287+00:00"
+    },
+    {
+      "stage": "Assessing sources",
+      "at": "2026-11-24T13:21:38.574383+00:00"
+    },
+    {
+      "stage": "Comparing information",
+      "at": "2026-11-24T13:21:38.577646+00:00"
+    },
+    {
+      "stage": "Validating citations",
+      "at": "2026-11-24T13:21:38.577653+00:00"
+    },
+    {
+      "stage": "Generating verdict",
+      "at": "2026-11-24T13:21:38.577671+00:00"
+    }
+  ],
+  "verdict": "UNVERIFIABLE",
+  "confidence": {
+    "level": "Low",
+    "reason": "0/1 assertions met the evidence rules. 0 cited passages passed quotation checks. Minimum publisher count per assertion: 0.",
+    "validation_failures": 0
+  },
+  "analysis": {
+    "kind": "factual",
+    "topic": "general",
+    "assertions": [
+      "The college cafeteria serves lunch at noon."
+    ],
+    "entities": [
+      "The"
+    ],
+    "qualifiers": [],
+    "queries": [
+      "The college cafeteria serves lunch at noon.",
+      "The college cafeteria serves lunch at noon. fact check evidence against"
+    ]
+  },
+  "summary": {
+    "established": "No decisive quotation validated.",
+    "interpretation": "The college cafeteria serves lunch at noon. \u2014 UNVERIFIABLE",
+    "uncertainty": "Evidence is incomplete, conflicting or insufficiently independent.",
+    "citations": []
+  },
+  "subclaims": [
+    {
+      "assertion": "The college cafeteria serves lunch at noon.",
+      "verdict": "UNVERIFIABLE",
+      "independent_publishers": 0,
+      "conflicting": false,
+      "ids": []
+    }
+  ],
+  "findings": [],
+  "evidence": [],
+  "evidence_modes": [],
+  "interpretation_mode": "literal comparison",
+  "limitations": [
+    "Local claim analysis selected.",
+    "Offline mode uses the bundled source collection."
+  ],
+  "validation_failures": []
+}

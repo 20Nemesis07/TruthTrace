@@ -1,0 +1,164 @@
+{
+  "id": "d519af51eca547af980f5d0024c50121",
+  "date": "2026-11-24T13:21:38.572995+00:00",
+  "claim": "Mars has no rings.",
+  "timeline": [
+    {
+      "stage": "Analyzing claim",
+      "at": "2026-11-24T13:21:38.565146+00:00"
+    },
+    {
+      "stage": "Retrieving evidence",
+      "at": "2026-11-24T13:21:38.565932+00:00"
+    },
+    {
+      "stage": "Assessing sources",
+      "at": "2026-11-24T13:21:38.566044+00:00"
+    },
+    {
+      "stage": "Comparing information",
+      "at": "2026-11-24T13:21:38.571971+00:00"
+    },
+    {
+      "stage": "Validating citations",
+      "at": "2026-11-24T13:21:38.572079+00:00"
+    },
+    {
+      "stage": "Generating verdict",
+      "at": "2026-11-24T13:21:38.572304+00:00"
+    }
+  ],
+  "verdict": "TRUE",
+  "confidence": {
+    "level": "Medium",
+    "reason": "1/1 assertions met the evidence rules. 1 cited passages passed quotation checks. Minimum publisher count per assertion: 1.",
+    "validation_failures": 0
+  },
+  "analysis": {
+    "kind": "factual",
+    "topic": "space",
+    "assertions": [
+      "Mars has no rings."
+    ],
+    "entities": [
+      "Mars"
+    ],
+    "qualifiers": [],
+    "queries": [
+      "Mars has no rings.",
+      "Mars has no rings. fact check evidence against"
+    ]
+  },
+  "summary": {
+    "established": "Mars has no rings.",
+    "interpretation": "Mars has no rings. \u2014 TRUE",
+    "uncertainty": "The assessment is limited to the retrieved passages.",
+    "citations": [
+      "be4d92c325a1bdb1"
+    ]
+  },
+  "subclaims": [
+    {
+      "assertion": "Mars has no rings.",
+      "verdict": "TRUE",
+      "independent_publishers": 1,
+      "conflicting": false,
+      "ids": [
+        "be4d92c325a1bdb1"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "assertion": 0,
+      "evidence_id": "be4d92c325a1bdb1",
+      "relation": "Supports",
+      "quote": "Mars has no rings.",
+      "reason": "Complete sentence matches the assertion."
+    }
+  ],
+  "evidence": [
+    {
+      "title": "Mars Facts",
+      "url": "https://science.nasa.gov/mars/facts/",
+      "publisher": "NASA",
+      "author": "",
+      "date": "",
+      "retrieved": "2026-11-24",
+      "adapter": "Local collection",
+      "mode": "offline",
+      "primary": true,
+      "text": "Mars has two small moons, Phobos and Deimos, that may be captured asteroids. Mars has no rings.",
+      "id": "be4d92c325a1bdb1",
+      "relevance": [
+        0.464
+      ],
+      "credibility": 0.77,
+      "indicators": [
+        "traceable",
+        "identified publisher",
+        "topic authority",
+        "primary institutional statement"
+      ],
+      "score": 0.5252000000000001
+    },
+    {
+      "title": "About Planets",
+      "url": "https://science.nasa.gov/solar-system/planets/",
+      "publisher": "NASA",
+      "author": "",
+      "date": "",
+      "retrieved": "2026-11-24",
+      "adapter": "Local collection",
+      "mode": "offline",
+      "primary": true,
+      "text": "Our solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+      "id": "4fc9cc449344aaa6",
+      "relevance": [
+        0.089
+      ],
+      "credibility": 0.77,
+      "indicators": [
+        "traceable",
+        "identified publisher",
+        "topic authority",
+        "primary institutional statement"
+      ],
+      "score": 0.2252
+    },
+    {
+      "title": "Mercury Facts",
+      "url": "https://science.nasa.gov/mercury/facts/",
+      "publisher": "NASA",
+      "author": "",
+      "date": "",
+      "retrieved": "2026-11-24",
+      "adapter": "Local collection",
+      "mode": "offline",
+      "primary": true,
+      "text": "Mercury doesn't have moons. Mercury doesn't have rings.",
+      "id": "d9dd29551a01a9a0",
+      "relevance": [
+        0.087
+      ],
+      "credibility": 0.77,
+      "indicators": [
+        "traceable",
+        "identified publisher",
+        "topic authority",
+        "primary institutional statement"
+      ],
+      "score": 0.22360000000000002
+    }
+  ],
+  "evidence_modes": [
+    "offline"
+  ],
+  "interpretation_mode": "literal comparison",
+  "limitations": [
+    "Local claim analysis selected.",
+    "Offline mode uses the bundled source collection.",
+    "Literal mode confirms only complete matching statements from sufficient sources. Other wording may be unverifiable."
+  ],
+  "validation_failures": []
+}

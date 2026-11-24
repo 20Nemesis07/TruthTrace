@@ -1,0 +1,1 @@
+Classify the complete claim as TRUE, FALSE, MISLEADING or UNVERIFIABLE using only the evidence. Cite each supporting evidence ID with a verbatim quote. Output the required JSON. Abstain if evidence is insufficient.

@@ -1,0 +1,1 @@
+Classify the claim based on the provided documents. Return a verdict using the JSON schema. Include evidence if helpful.
